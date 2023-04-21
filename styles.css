@@ -58,6 +58,12 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+.test-title{
+    font-size: 36px;
+    color:#1f2937
 }
 .test-cont{
     display: flex;
@@ -66,6 +72,7 @@ li{
 }
 .test{
     flex:1 1 300px;
+    gap: 8px;
 }
 
 img{
@@ -74,9 +81,10 @@ width: 300px;
 }
 .text{
     text-align: center;
+    font-size: 12px;
 }
 button {
-    padding: 7px 1em;
+    padding: 7px 16px;
     width: 120px;
     background-color: #3882F6;
     border-radius: 8px;
