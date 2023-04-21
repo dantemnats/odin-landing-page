@@ -101,8 +101,9 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: auto;
+    padding: 50px;
     background-color: #e5e7eb;
+    border-radius: 15px;
 }
 .quote{
     font-size: 28px;
